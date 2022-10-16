@@ -1,5 +1,52 @@
-h1{
-    background-color: green;
-    text-align: center;
-    color: white;
+*{
+    direction: ltr;
+}
+
+.logo{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+img{
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+header{
+    background-color: white;
+    border-bottom: 1px solid;
+}
+
+ul{
+    margin-left: -25px;
+    display: inline;
+}
+
+li{
+    padding: 1px 8px;
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+}
+
+a:hover{
+    color: black;
+    font-weight: bolder;
+}
+
+
+/* this body*/
+main{
+}
+
+article{
+}
+
+aside{
 }
