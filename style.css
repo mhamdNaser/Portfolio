@@ -1,55 +1,75 @@
-
-
-/* --- header and navbar --- */
 *{
-    box-sizing: border-box;
+    direction: ltr;
+}
+
+.logo{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+img{
+    margin-left: 3px;
+    margin-top: 3px;
 }
 
 header{
-    width: 1366px;
-    margin: 0 auto;
-    background-color: rgb(252, 163, 17);
-    border-radius: 0px 0px 30px 30px ;
+    background-color: white;
+    border-bottom: 1px solid;
 }
 
-header h1{
-    padding: 80px;
-    text-align: center;
-    color: white;
+ul{
+    margin-left: -25px;
+    display: inline;
 }
 
-.nav-container{
-    margin-top: 30px;
-    display: flex;
-    flex-direction: row;
+li{
+    padding: 1px 8px;
+    display: inline-block;
 }
 
-.left-nav{
-    flex: 50%;
-    padding: 10px 20px;
-    background-color: rgb(20, 33, 61);
-    border-radius: 0px 0px 0px 30px ;
-}
-
-.right-nav{
-    direction: rtl;
-    flex: 50%;
-    padding: 10px 20px;
-    background-color: rgb(20, 33, 61);
-    border-radius: 0px 0px 30px 0px ;
-}
-
-.left-nav a , .right-nav a{
-    padding: 10px;
-    color: white;
+a{
     text-decoration: none;
+    color: gray;
 }
 
-/* --- body --- */
+a:hover{
+    color: black;
+    font-weight: bolder;
+}
 
+
+/* this body*/
 main{
-    width: 1366px;
-    margin: -38px auto 0 auto;
-    padding: 50px;
-    background-color: rgb(229, 229, 229);
+    position: relative;
+    padding: 15px;
+    display: flex;
+    justify-content: left;
+}
+
+section{
+    width: 65%;
+    top: 0;
+    left: 0;
+    padding-left: 10px;
+    border-right: 2px solid black;
+    display: inline-block;
+}
+
+aside{
+    top: 0;
+    width: 25%;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.wedg{
+    background-color: gray;
+    margin: 0 auto 10px;
+    width: 180px;
+    height: 180px;
+>>>>>>> f866f3a26fd97eef5925491d64aa9373ad45466e
 }
