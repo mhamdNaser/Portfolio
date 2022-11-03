@@ -41,6 +41,7 @@
 }
 
 header{
+    z-index: 4;
     position: fixed;
     overflow: hidden;
     top: 0;
@@ -74,6 +75,7 @@ header img{
 
 /* --- style home section --- */
 .home{
+    z-index: 3;
     margin: 200px auto;
     padding: 2%;
     display: flex;
