@@ -111,6 +111,28 @@ header img{
 
 /* --- style objective section --- */
 .objective{
+    padding: 2%;
+    text-align: center;
+    color: white;
+    background-color: rgb(130, 40, 38);
+    margin: 0 auto;
+}
+
+.objective h2{
+    padding: 2%;
+}
+
+.my-objective{
     width: 80%;
     margin: 0 auto;
+    color: rgb(130, 40, 38);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 5%;
+}
+
+.my-objective div{
+    background-color: white;
+    padding: 5%;
+    border-radius: 3%;
 }
