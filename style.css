@@ -76,7 +76,7 @@ header img{
 /* --- style home section --- */
 .home{
     z-index: 3;
-    margin: 200px auto;
+    margin: 200px auto 50px;
     padding: 2%;
     display: flex;
     flex-direction: row;
@@ -112,20 +112,45 @@ header img{
 }
 
 /* --- style objective section --- */
-.objective{
-    padding: 2%;
+.section{
+    margin-top: 50px;
+    padding: 6% 2% 2% 2%;
     text-align: center;
     color: white;
-    background-color: rgb(130, 40, 38);
     margin: 0 auto;
 }
 
-.objective h2{
-    padding: 2%;
+.white-bg{
+    background-color: rgb(255, 255, 255) !important;
 }
 
-.my-objective{
-    width: 80%;
+.red-bg{
+    background-color: rgba(130, 40, 38, 0.3);
+}
+
+.img-bg{
+    background-color: rgba(130, 40, 38, 0.3);
+    background-image: url(./img/background-section.webp);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.content{
+    padding: 6%;
+}
+
+.tite-section{
+    margin-top: -5% !important;
+    margin-bottom: 5% !important;
+    color: rgb(255, 255, 255);
+    margin-left: -1.5%;
+    padding: 4%;
+}
+
+.my-section{
+    width: 100%;
     margin: 0 auto;
     color: rgb(130, 40, 38);
     display: grid;
@@ -133,8 +158,31 @@ header img{
     gap: 5%;
 }
 
-.my-objective div{
+.sec-post-style{
+    width: 60%;
+    height: 120px !important;
+    margin-bottom: 10% !important;
+    margin-top: -25% !important;
+    background-color: rgb(255, 255, 255) !important;
+    margin: 0 auto;
+    border-top: 3px solid rgb(130, 40, 38);
+    border-radius: 40px !important;
+}
+
+.my-section div{
+    border-top: 3px solid rgb(130, 40, 38);
     background-color: white;
-    padding: 5%;
+    padding: 10%;
     border-radius: 3%;
+    text-align: justify;
+    text-align-last: center;
+}
+
+.section p{
+    margin-top: -15% !important;
+}
+
+.icon{
+    margin-top: -25% !important;
+    width: 60px;
 }
